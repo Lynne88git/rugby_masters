@@ -51,6 +51,7 @@
     "generate-react-cli": "^7.1.0",
     "react": "^16.14.0",
     "react-bootstrap": "^2.2.3",
-    "react-dom": "^16.14.0"
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^6.0.2"
   }
 }

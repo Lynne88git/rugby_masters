@@ -1,7 +1,40 @@
 .app-container {
-    color: white;
-    background-color: black;
-    text-align: center;
     height: 100%;
     width: 100%;
 }
+
+.page-container {
+    color: black;
+    background-color: black;
+    background-image: linear-gradient(to right, #141630 , #1F2350);
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1200px){
+  .page-container {
+    max-width: 1351px;
+}  
+}
+
+@media (max-width: 992px){
+  .page-container {
+    max-width: 960px;
+}  
+}
+
+@media (max-width: 768px){
+    .page-container {
+    max-width: 720px;
+}
+}
+
+@media (max-width: 576px){
+ .page-container {
+    max-width: 540px;
+}   
+}
+

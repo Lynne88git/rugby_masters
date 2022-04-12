@@ -1,11 +1,17 @@
 import React from 'react'
+import NavbarMain from './components/Navbar/NavbarMain'
+import Home from './pages/Home'
 import './app.styles.scss'
 
 export default function App() {
   return (
-    <div className="app-container">
-      Webpack 5 boilerplate for react using babel, sass, with a hot dev server and an optimized
-      production build.
-    </div>
+    <>
+      <NavbarMain />
+      <div className="app-container">
+        <div className="page-container">
+          <Home />
+        </div>
+      </div>
+    </>
   )
 }
