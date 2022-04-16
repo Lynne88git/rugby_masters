@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>E04BB7B1-6DD1-4722-9E0C-4A21A517B567</title>
+    <defs>
+        <linearGradient x1="46.9200132%" y1="100%" x2="46.9200132%" y2="-52.564239%" id="linearGradient-1">
+            <stop stop-color="#E15B11" offset="0%"></stop>
+            <stop stop-color="#EB9845" offset="54%"></stop>
+            <stop stop-color="#EF7D3F" offset="100%"></stop>
+        </linearGradient>
+        <path d="M8.5,0.583333333 C4.13,0.583333333 0.583333333,4.13 0.583333333,8.5 C0.583333333,12.87 4.13,16.4166667 8.5,16.4166667 C12.87,16.4166667 16.4166667,12.87 16.4166667,8.5 C16.4166667,4.13 12.87,0.583333333 8.5,0.583333333 L8.5,0.583333333 Z M9.29166667,12.4583333 L7.70833333,12.4583333 L7.70833333,7.70833333 L9.29166667,7.70833333 L9.29166667,12.4583333 L9.29166667,12.4583333 Z M9.29166667,6.125 L7.70833333,6.125 L7.70833333,4.54166667 L9.29166667,4.54166667 L9.29166667,6.125 L9.29166667,6.125 Z" id="path-2"></path>
+    </defs>
+    <g id="Desktop-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Class-Overview" transform="translate(-513.000000, -417.000000)">
+            <g id="class_details_i_icon" transform="translate(513.000000, 417.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

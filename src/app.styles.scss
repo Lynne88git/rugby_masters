@@ -15,6 +15,30 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "HKGrotesk-SemiBoldLegacy"; 
 }
 
+h1 {
+ font-size: 52pt;
+}
+
+h2 {
+    font-size: 28pt;
+}
+
+h3 {
+    font-size: 22pt;
+}
+
+h4 {
+    font-size: 18pt;
+}
+
+h5 {
+    font-size: 16pt;
+}
+
+h6 {
+    font-size: 14pt;
+}
+
 p {
     font-size: 14px;
 }
@@ -28,10 +52,162 @@ p {
     margin-left: 4rem!important;  
 }
 
+.cmr-6 {
+    margin-right: 4rem!important;  
+}
+
 .cml-7 {
     margin-left: 5rem!important;  
+}
+.cmr-7 {
+    margin-right: 5rem!important;  
 }
 
 .cml-8 {
     margin-left: 6rem!important;  
 }
+.cmr-8 {
+    margin-right: 6rem!important;  
+}
+
+.cml-9 {
+    margin-left: 7rem!important;  
+}
+.cmr-9 {
+    margin-right: 7rem!important;  
+}
+
+.cml-10 {
+    margin-left: 8rem!important;  
+}
+.cmr-10 {
+    margin-right: 8rem!important;  
+}
+
+.cml-11 {
+    margin-left: 9rem!important;  
+}
+.cmr-11 {
+    margin-right: 9rem!important;  
+}
+
+.cml-12 {
+    margin-left: 10rem!important;  
+}
+.cmr-12 {
+    margin-right: 10rem!important;  
+}
+
+.button-primary {
+    font-size: 16px;
+    height: 39px;
+    width: 156px;
+    border-radius: 20px;
+    border-color: transparent !important;
+    background: linear-gradient(0deg, #E15B11 0%, #EB9845 54%, #EF7D3F 100%);
+    outline:0 !important;
+}
+
+.button-primary.focus, .button-primary:focus {
+    box-shadow: none !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background: linear-gradient(0deg, #E15B11 0%, #EB9845 54%, #EF7D3F 100%);
+    border-color: transparent !important;
+}
+
+.button-secondary {
+    font-size: 16px;
+    height: 39px;
+    width: 156px;
+    width: auto;
+    border-radius: 20px;
+    color: #fff;
+    border-color: transparent !important;
+    background: #141630 !important;
+    outline:0 !important;
+}
+
+.button-secondary:hover { 
+    color: #fff;
+}
+
+.button-secondary.focus, .button-secondary:focus {
+    box-shadow: none !important;
+}
+
+.button-secondary:not(:disabled):not(.disabled).active, .button-secondary:not(:disabled):not(.disabled):active, .show>.button-secondary.dropdown-toggle {
+    color: #fff;
+    background: #141630;
+    border-color: transparent !important;
+}
+
+.button-white {
+    font-size: 14px;
+    font-weight: bolder;
+    width: auto;
+    height: 39px;
+    width: 156px;
+    width: auto;
+    border-radius: 20px;
+    border-color: transparent !important;
+    color: #141630;
+    background: #fff !important;
+    outline:0 !important;
+}
+
+.button-white:hover {
+    color: #141630;
+}
+
+.button-white.focus, .button-white:focus {
+    box-shadow: none !important;
+}
+
+.button-white:not(:disabled):not(.disabled).active, .button-white:not(:disabled):not(.disabled):active, .show>.button-white.dropdown-toggle {
+    background-color: #fff;
+    color: #141630;
+    border-color: transparent !important;
+}
+
+.button-frame {
+    font-size: 12px;
+    font-weight: 400;
+    width: 156px;
+    width: auto;
+    border-radius: 20px;
+    border: 1px solid #FFFFFF !important;
+    color: #fff;
+    background: transparent !important;
+    outline:0 !important;
+}
+
+.button-frame:hover { 
+    border: 1px solid #FFFFFF !important; 
+}
+
+.button-frame.focus, .button-frame:focus {
+    box-shadow: none !important;
+    border: 1px solid #FFFFFF !important;
+}
+
+.button-frame:not(:disabled):not(.disabled).active, .button-frame:not(:disabled):not(.disabled):active, .show>.button-frame.dropdown-toggle {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #FFFFFF !important;
+}
+
+.custom-non-btn-style {
+    font-size: 16px;
+    border: 0px;
+    background: transparent;
+    outline:0;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+

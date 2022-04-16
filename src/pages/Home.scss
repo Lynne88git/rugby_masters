@@ -9,8 +9,8 @@
     height: 50px;
     width: 100%;
     color: #141630;
-    font-family: "HK Grotesk";
-    font-size: 16px;
+    font-family: "HKGrotesk-SemiBoldLegacy" !important; 
+    font-size: 18px !important;
     letter-spacing: 0;
     line-height: 19px;
     background: transparent;
@@ -24,10 +24,25 @@
     outline: none !important;
 }
 
-[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
-    cursor: pointer;
-    border: 0px transparent !important;
-    background-color: transparent;
-    font-family: 'Work Sans';
-    font-size: 17px;
+
+
+.lesson-info-blurb {
+    width: 1192px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.info-blurb-img {
+    width: 157px;
+    height: 157px;
+}
+
+.h4or5 {
+font-size: 20px !important;
+}
+
+.lesson-details {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px !important;
+    text-transform: uppercase;
 }
