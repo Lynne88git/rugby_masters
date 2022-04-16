@@ -11,7 +11,7 @@ export default function Footer() {
               <img className="" src="../../assets/icons/footer_rugby_masters_logo.svg" />
             </div>
             <div className="col-lg-6 col-xs-12 links">
-              <ul className="m-0 p-0">
+              <ul className="m-0 pt-4">
                 <li>
                   <a href="#">Home</a>
                 </li>

@@ -62,6 +62,10 @@ export default function Home() {
                   <Accordion.Item eventKey="0">
                     <Accordion.Header className="info-heading px-5 py-2">
                       1. Introduction
+                      <img
+                        className="px-2 toggle-arrow"
+                        src="../../assets/icons/class_details_arrow_up.svg"
+                      />
                     </Accordion.Header>
                     <Accordion.Body className="px-5 py-4">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -134,7 +138,7 @@ export default function Home() {
                 </Card>
               </Accordion>
             </div>
-            <div className="row align-items-center text-white coach-blurb w-100 mt-5 py-3">
+            <div className="row align-items-center text-white coach-blurb w-100 mt-5 py-3 mx-2">
               <div className="col-1">
                 <img
                   className="px-2 coach-blurb-img"

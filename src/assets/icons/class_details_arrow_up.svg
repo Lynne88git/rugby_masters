@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>D18EB230-63A4-4372-A8B8-B9E8AAC7F568</title>
+    <defs>
+        <linearGradient x1="42.2685149%" y1="80.127793%" x2="46.1750882%" y2="9.66945142%" id="linearGradient-1">
+            <stop stop-color="#E15B11" offset="0%"></stop>
+            <stop stop-color="#EB9845" offset="54%"></stop>
+            <stop stop-color="#EF7D3F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Class-Overview" transform="translate(-1270.000000, -557.000000)">
+            <g id="class_details_arrow_up" transform="translate(1280.000000, 567.000000) rotate(180.000000) translate(-1280.000000, -567.000000) translate(1270.000000, 557.000000)">
+                <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+                <path d="M15.782,6.8 L10,12.582 L4.218,6.8 C3.828,6.41 3.194,6.41 2.804,6.8 C2.414,7.19 2.414,7.824 2.804,8.214 L9.29,14.7 C9.486,14.896 9.744,14.994 10,14.992 C10.258,14.992 10.514,14.896 10.71,14.7 L17.196,8.214 C17.586,7.824 17.586,7.19 17.196,6.8 C16.806,6.41 16.172,6.41 15.782,6.8 L15.782,6.8 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

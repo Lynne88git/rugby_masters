@@ -44,6 +44,10 @@ p {
     font-size: 14px;
 }
 
+li {
+    list-style-type: none;
+}
+
 .app-container {
     height: 100%;
     width: 100%;
@@ -205,6 +209,22 @@ p {
     border: 0px;
     background: transparent;
     outline:0;
+}
+
+.custom-non-btn-style:hover { 
+    background: transparent;
+}
+
+.custom-non-btn-style.focus, .custom-non-btn-style:focus {
+    box-shadow: none !important;
+    border: 0px solid #FFFFFF !important;
+    background: transparent;
+}
+
+.custom-non-btn-style:not(:disabled):not(.disabled).active, .custom-non-btn-style:not(:disabled):not(.disabled):active, .show>.custom-non-btn-style.dropdown-toggle {
+    background: transparent !important;
+    color: #fff;
+    border: 0px solid #FFFFFF !important;
 }
 
 .btn:focus {

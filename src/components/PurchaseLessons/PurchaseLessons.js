@@ -15,28 +15,40 @@ export default function PurchaseLessons() {
           <Card className="mr-3 custom-card-styles" style={{ width: '18rem' }}>
             <Card.Img variant="top" src="../../assets/images/home_snapshots_image.png" />
             <Card.Body className="snapshot-card">
-              <Card.Title className="snapshot-card-title">Card Title</Card.Title>
+              <Card.Title className="snapshot-card-title">
+                Tackling and Game Tactics Lorem ipsum dolor Game Tactics Lorem ipsum dolor with
+                Cobus Reinach
+              </Card.Title>
               <Card.Text className="snapshot-card-desc">
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat
+                a laborum. Lorem ipsum dolor sit amet.
               </Card.Text>
-              <Button className="custom-non-btn-style">
-                <img src="../../assets/icons/home_cart_icon_circle.svg" />
-              </Button>
+              <div className="text-right">
+                R450.00
+                <Button className="custom-non-btn-style">
+                  <img src="../../assets/icons/home_cart_icon_circle.svg" />
+                </Button>
+              </div>
             </Card.Body>
           </Card>
 
           <Card className="mr-3 custom-card-styles" style={{ width: '18rem' }}>
             <Card.Img variant="top" src="../../assets/images/home_snapshots_image.png" />
             <Card.Body className="snapshot-card">
-              <Card.Title className="snapshot-card-title">Card Title</Card.Title>
+              <Card.Title className="snapshot-card-title">
+                Tackling and Game Tactics Lorem ipsum dolor Game Tactics Lorem ipsum dolor with
+                Cobus Reinach
+              </Card.Title>
               <Card.Text className="snapshot-card-desc">
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat
+                a laborum. Lorem ipsum dolor sit amet.
               </Card.Text>
-              <Button className="custom-non-btn-style">
-                <img src="../../assets/icons/home_cart_icon_circle.svg" />
-              </Button>
+              <div className="text-right">
+                R450.00
+                <Button className="custom-non-btn-style">
+                  <img src="../../assets/icons/home_cart_icon_circle.svg" />
+                </Button>
+              </div>
             </Card.Body>
           </Card>
         </div>
