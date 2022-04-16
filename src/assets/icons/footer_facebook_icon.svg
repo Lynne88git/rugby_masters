@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3AC00848-69F1-4F4C-B98B-EE3C184E4FE6</title>
+    <defs>
+        <linearGradient x1="46.9200132%" y1="100%" x2="46.9200132%" y2="-52.564239%" id="linearGradient-1">
+            <stop stop-color="#E15B11" offset="0%"></stop>
+            <stop stop-color="#EB9845" offset="54%"></stop>
+            <stop stop-color="#EF7D3F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Class-Overview" transform="translate(-1107.000000, -2572.000000)">
+            <g id="Footer" transform="translate(0.000000, 2473.000000)">
+                <g id="footer_facebook_icon" transform="translate(1107.000000, 99.000000)">
+                    <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="16" cy="16" r="16"></circle>
+                    <g id="Facebook_icon" transform="translate(12.000000, 9.000000)" fill="#FFFFFF">
+                        <path d="M0.1376,5.504 L0.1376,8.5312 L2.408,8.5312 L2.408,13.8288 L5.4352,13.8288 L5.4352,8.5312 L7.7056,8.5312 L8.4624,5.504 L5.4352,5.504 L5.4352,3.9904 C5.4352,3.5724309 5.7740309,3.2336 6.192,3.2336 L8.4624,3.2336 L8.4624,0.2064 L6.192,0.2064 C4.10215451,0.2064 2.408,1.90055451 2.408,3.9904 L2.408,5.504 L0.1376,5.504" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

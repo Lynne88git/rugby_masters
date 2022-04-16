@@ -1,0 +1,33 @@
+.card-color {
+    color: #fff;
+    background-color: rgba(255,255,255,0.15);
+    border: 0px solid transparent;
+    border-radius: 6px;
+}
+
+.info-heading button{
+    height: 50px;
+    width: 100%;
+    color: #141630;
+    font-family: "HK Grotesk";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+    background: transparent;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    border: 0;
+}
+
+.info-heading button:focus {
+    outline: none !important;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    border: 0px transparent !important;
+    background-color: transparent;
+    font-family: 'Work Sans';
+    font-size: 17px;
+}

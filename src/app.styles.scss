@@ -1,40 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+@font-face {
+    font-family: "HKGrotesk-SemiBoldLegacy";   /*Can be any text*/
+    src: local("HKGrotesk-SemiBoldLegacy"),
+      url("../src/assets/fonts/HKGrotesk-SemiBoldLegacy.woff2") format("woff2");
+  }
+
+body {
+    overflow-x: hidden; 
+    font-family: 'Work Sans' !important;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "HKGrotesk-SemiBoldLegacy"; 
+}
+
+p {
+    font-size: 14px;
+}
+
 .app-container {
     height: 100%;
     width: 100%;
 }
 
-.page-container {
-    color: black;
-    background-color: black;
-    background-image: linear-gradient(to right, #141630 , #1F2350);
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.cml-6 {
+    margin-left: 4rem!important;  
 }
 
-@media (min-width: 1200px){
-  .page-container {
-    max-width: 1351px;
-}  
+.cml-7 {
+    margin-left: 5rem!important;  
 }
 
-@media (max-width: 992px){
-  .page-container {
-    max-width: 960px;
-}  
+.cml-8 {
+    margin-left: 6rem!important;  
 }
-
-@media (max-width: 768px){
-    .page-container {
-    max-width: 720px;
-}
-}
-
-@media (max-width: 576px){
- .page-container {
-    max-width: 540px;
-}   
-}
-

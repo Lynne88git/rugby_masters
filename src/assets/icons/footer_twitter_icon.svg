@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2289862A-3D35-410A-98DB-C4E0426B5865</title>
+    <defs>
+        <linearGradient x1="46.9200132%" y1="100%" x2="46.9200132%" y2="-52.564239%" id="linearGradient-1">
+            <stop stop-color="#E15B11" offset="0%"></stop>
+            <stop stop-color="#EB9845" offset="54%"></stop>
+            <stop stop-color="#EF7D3F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Class-Overview" transform="translate(-1192.000000, -2572.000000)">
+            <g id="Footer" transform="translate(0.000000, 2473.000000)">
+                <g id="footer_twitter_icon" transform="translate(1192.000000, 99.000000)">
+                    <circle id="Oval-Copy-4" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="16" cy="16" r="16"></circle>
+                    <g id="Twitter_icon" transform="translate(7.000000, 7.000000)">
+                        <polygon id="Path" points="0 0 18 0 18 18 0 18"></polygon>
+                        <path d="M16.9,3.0075 C16.15,3.375 15.415,3.52425 14.65,3.75 C13.80925,2.80125 12.56275,2.74875 11.365,3.19725 C10.16725,3.64575 9.38275,4.74225 9.4,6 L9.4,6.75 C6.96625,6.81225 4.79875,5.70375 3.4,3.75 C3.4,3.75 0.2635,9.32475 6.4,12 C4.996,12.93525 3.59575,13.566 1.9,13.5 C4.381,14.85225 7.08475,15.31725 9.4255,14.63775 C12.1105,13.85775 14.317,11.8455 15.16375,8.83125 C15.4163427,7.91450296 15.5417658,6.96739457 15.5365,6.0165 C15.535,5.82975 16.669,3.9375 16.9,3.00675 L16.9,3.0075 Z" id="Path" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

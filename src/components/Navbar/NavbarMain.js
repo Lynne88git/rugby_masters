@@ -1,64 +1,82 @@
 import React, { Component } from 'react'
-import { render } from 'react-dom'
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import { Nav, Dropdown, DropdownButton } from 'react-bootstrap'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+
+import {
+  Nav,
+  Navbar,
+  Container,
+  NavDropdown,
+  Form,
+  FormControl,
+  Button,
+  Dropdown,
+  DropdownButton
+} from 'react-bootstrap'
 import Login from '../Login/Login'
 import SignUp from '../Signup/Signup'
 import Home from '../../pages/Home'
 import BrowseClasses from '../../pages/BrowseClasses'
 import BasicSkills from '../../pages/BasicSkills'
 import RugbyBasics from '../../pages/RugbyBasics'
+import ErrorPage from '../../pages/ErrorPage'
+import './Navbar.scss'
+//import Logo from '../../assets/icons/mobile_header_logo.png'
 
 export default class NavbarMain extends Component {
   render() {
     return (
-      <div>
-        <BrowserRouter>
-          <>
-            <>
-              <Nav defaultActiveKey="/home" as="ul">
-                <Nav.Item as="li">
-                  <Nav.Link as={Link} to="/">
-                    Home
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item as="li">
-                  <Nav.Link as={Link} to="/">
+      <Router>
+        <>
+          <Navbar expand="lg" className="navbar-main px-5">
+            <Container fluid>
+              <Nav.Link as={Link} to="/">
+                <img className="nav-logo" src="../../assets/icons/footer_rugby_masters_logo.svg" />
+              </Nav.Link>
+              <Navbar.Toggle aria-controls="navbarScroll" />
+              <Navbar.Collapse id="navbarScroll">
+                <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
+                  <Nav.Link as={Link} to="/browseclasses">
                     Browse Classes
                   </Nav.Link>
-                </Nav.Item>
-                <Nav.Item as="li">
-                  <Nav.Link as={Link} to="/">
-                    Basic Skills
+                </Nav>
+                <div className="d-flex justify-content-end w-100">
+                  <Form className="d-flex">
+                    {/* <FormControl
+                      type="search"
+                      placeholder="Search"
+                      className="me-2"
+                      aria-label="Search"
+                    /> */}
+                    <Button variant="custom-non-btn-style">
+                      {' '}
+                      <img className="pr-1 s-search" src="../../assets/icons/header-search.svg" />
+                      Search
+                    </Button>
+                  </Form>
+                  <Nav.Link href="#action2">
+                    <img className="pr-1" src="../../assets/icons/header_cart_icon.svg" />
+                    Cart
                   </Nav.Link>
-                </Nav.Item>
-                <Nav.Item as="li">
-                  <Nav.Link as={Link} to="/">
-                    Rugby Basics
-                  </Nav.Link>
-                </Nav.Item>
+                  <Nav.Link href="#action2">Log In</Nav.Link>
+                  <Button className="button-primary">Sign Up</Button>
+                </div>
+              </Navbar.Collapse>
+            </Container>
+          </Navbar>
 
-                <DropdownButton id="dropdown-basic-button" title="Dropdown button">
-                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                </DropdownButton>
-              </Nav>
-            </>
-            <div>
-              <Routes>
-                {/* <Route path="/" element={<Home />} /> */}
-                <Route path="classes" element={<BrowseClasses />}>
-                  <Route path="basicskills" element={<BasicSkills />} />
-                  <Route path="rugbybasics" element={<RugbyBasics />} />
-                  <Route path="login" element={<Login />} />
-                  <Route path="signup" element={<SignUp />} />
-                </Route>
-              </Routes>
-            </div>
-          </>
-        </BrowserRouter>
-      </div>
+          <div className="page-container d-flex justify-content-center">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="browseclasses" element={<BrowseClasses />} />
+              <Route path="basicskills" element={<BasicSkills />} />
+              <Route path="rugbybasics" element={<RugbyBasics />} />
+              <Route path="*" element={<ErrorPage />} />
+              <Route path="login" element={<Login />} />
+              <Route path="signup" element={<SignUp />} />
+            </Routes>
+          </div>
+        </>
+      </Router>
     )
   }
 }

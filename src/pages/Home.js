@@ -1,20 +1,16 @@
 import React from 'react'
 import { Accordion, Card } from 'react-bootstrap'
 import './Home.scss'
+import HomeVideo from '../components/HomeVideo/HomeVideo'
 
 export default function Home() {
   return (
     <div className="container py-5">
       <div className="row">
         <div className="col-7">
-          <div className="card">
-            <img
-              src="https://images.unsplash.com/photo-1477862096227-3a1bb3b08330?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
-              alt=""
-              className="card-img-top"
-            />
+          <div className="card card-color">
+            <HomeVideo />
             <div className="card-body">
-              <h5 className="card-title">Sunset</h5>
               <p className="card-text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat
                 a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in
@@ -27,8 +23,8 @@ export default function Home() {
           <Accordion defaultActiveKey="0">
             <Card>
               <Accordion.Item eventKey="0">
-                <Accordion.Header>Introduction</Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Header className="info-heading px-5">1. Introduction</Accordion.Header>
+                <Accordion.Body className="px-5">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                   exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -40,8 +36,10 @@ export default function Home() {
             </Card>
             <Card>
               <Accordion.Item eventKey="1">
-                <Accordion.Header>On-Field Decision Making</Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Header className="info-heading py-2 px-5">
+                  2. On-Field Decision Making
+                </Accordion.Header>
+                <Accordion.Body className="px-5">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                   exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -53,8 +51,8 @@ export default function Home() {
             </Card>
             <Card>
               <Accordion.Item eventKey="2">
-                <Accordion.Header>Passing</Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Header className="info-heading py-2 px-5">3. Passing</Accordion.Header>
+                <Accordion.Body className="px-5">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                   exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute

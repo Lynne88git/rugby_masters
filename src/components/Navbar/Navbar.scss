@@ -1,0 +1,86 @@
+.navbar-main{
+    //height: auto !important;
+}
+
+.nav-link {
+    color: #141630 !important;
+    width: max-content;
+    font-size: 16px;
+}
+
+.page-container {
+    color: black;
+    background-color: black;
+    background-image: linear-gradient(to right, #141630 , #1F2350);
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-logo {
+    width: 72px;
+    height: 72px;
+}
+
+.s-search {
+    width: 28px;
+}
+
+.button-primary {
+    font-size: 16px;
+    height: 39px;
+    width: 156px;
+    border-radius: 20px;
+    border-color: transparent !important;
+    background: linear-gradient(0deg, #E15B11 0%, #EB9845 54%, #EF7D3F 100%);
+    outline:0 !important;
+}
+
+.button-primary.focus, .button-primary:focus {
+    box-shadow: none !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background: linear-gradient(0deg, #E15B11 0%, #EB9845 54%, #EF7D3F 100%);
+    border-color: transparent !important;
+}
+
+.custom-non-btn-style {
+    font-size: 16px;
+    border: 0px;
+    background: transparent;
+    outline:0;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+// @media (min-width: 1200px){
+//   .page-container {
+//     max-width: 1351px;
+// }  
+// }
+
+// @media (max-width: 992px){
+//   .page-container {
+//     max-width: 960px;
+// }  
+// }
+
+// @media (max-width: 768px){
+//     .page-container {
+//     max-width: 720px;
+// }
+// }
+
+// @media (max-width: 576px){
+//  .page-container {
+//     max-width: 540px;
+// }   
+// }
+
