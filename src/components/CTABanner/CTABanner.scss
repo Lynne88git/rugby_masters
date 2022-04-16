@@ -1,0 +1,31 @@
+.cta-banner-container {
+    width: 114vw !important;
+    min-width: 100%;
+    max-width: 100%;
+    background-image: url("../../assets/images/home_ready_to_go_image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.display-2 {
+    color: #fff;
+    text-align: left;
+    font-size: 52px;
+  }
+  
+  .lead {
+    color: rgba(255, 255, 255, 0.9);
+    text-align: left;
+    font-size: 22px;
+  }
+
+  .action {
+    text-align: center;   
+  }
+
+  .button-action {
+      width: 300px !important;
+      height: 63px !important;
+      border-radius: 37px !important;
+  }
