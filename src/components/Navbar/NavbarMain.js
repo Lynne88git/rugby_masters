@@ -64,7 +64,7 @@ export default class NavbarMain extends Component {
             </Container>
           </Navbar>
 
-          <div className="page-container row">
+          <div className="page-container">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="browseclasses" element={<BrowseClasses />} />

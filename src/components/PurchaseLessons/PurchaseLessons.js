@@ -5,7 +5,7 @@ import './PurchaseLessons.scss'
 export default function PurchaseLessons() {
   return (
     <>
-      <div className="container">
+      <div className="container text-white">
         <h3>Snapshots</h3>
         <p>Purchase individual lessons from this Master Class</p>
       </div>

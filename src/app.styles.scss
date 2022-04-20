@@ -5,11 +5,20 @@
       url("../src/assets/fonts/HKGrotesk-SemiBoldLegacy.woff2") format("woff2");
   }
 
-body {
+  html {
+    height: 100%;
+  } 
+  
+  body {
     overflow-x: hidden !important; 
     font-family: 'Work Sans' !important;
     width: 100% !important;
-    max-width: 100% !important;
+    min-width: fit-content;
+    min-height: 100%;
+    margin:0;
+    padding:0;
+    clear: both;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,11 +55,6 @@ p {
 
 li {
     list-style-type: none;
-}
-
-.app-container {
-    height: 100%;
-    width: 100%;
 }
 
 .cml-2 {
@@ -132,7 +136,7 @@ li {
 }
 
 .button-secondary {
-    font-size: 16px;
+    font-size: 1vw;
     height: 39px;
     width: auto;
     border-radius: 20px;
