@@ -14,31 +14,35 @@ export default function Home() {
           <div className="container custom-width">
             <p className="text-white">Breadcrumbs</p>
             <div className="row">
-              <div className="d-flex py-3 lesson-info-blurb mb-4">
-                <div className="mr-auto p-2">
-                  <div className="row">
-                    <img
-                      className="info-blurb-img"
-                      src="../../assets/images/class_overview_circle_image@1x.png"
-                    />
-                    <div className="text-white mx-5 my-2">
-                      <h2>Rugby Basics</h2>
-                      <h4 className="h4or5">Taught by Cobus Reinach</h4>
-                      <p className="lesson-details">6 Lessons - 3 Hours, 27 Mins</p>
-                      <Button className="button-white">2 Snapshots Available</Button>
-                      <img
-                        className="px-2"
-                        src="../../assets/icons/class_details_i_icon-ic_info.svg"
-                      />
+              <div className="d-flex justify-content-between py-3 lesson-info-blurb mb-4">
+                <div className="col-2">
+                  <img
+                    className="info-blurb-img"
+                    src="../../assets/images/class_overview_circle_image@1x.png"
+                  />
+                </div>
+                <div className="col-7 p-0">
+                  <div className="mr-auto p-2">
+                    <div className="row">
+                      <div className="text-white mx-0 my-2">
+                        <h2>Rugby Basics</h2>
+                        <h4 className="h4or5">Taught by Cobus Reinach</h4>
+                        <p className="lesson-details">6 Lessons - 3 Hours, 27 Mins</p>
+                        <Button className="button-white">2 Snapshots Available</Button>
+                        <img
+                          className="px-2"
+                          src="../../assets/icons/class_details_i_icon-ic_info.svg"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="pt-3 pr-3">
+                <div className="col-3 p-0 ml-4">
                   <div className="row">
                     <h4 className="h4or5 text-white pr-4 pt-2">R1550.00</h4>
                     <Button className="button-primary">Add to Cart</Button>
                   </div>
-                  <div className="row mt-5 pt-3">
+                  <div className="row mt-5">
                     <Button className="button-frame mt-4 mr-2">Basic Skills</Button>
                     <Button className="button-frame mt-4 mr-2">Coaching</Button>
                     <Button className="button-frame mt-4 mr-2">Techinques</Button>
