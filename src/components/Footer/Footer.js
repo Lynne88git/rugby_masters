@@ -39,7 +39,9 @@ export default function Footer() {
                   <img className="pr-2" src="../../assets/icons/footer_twitter_icon.svg" />
                 </a>
               </p>
-              <p>hello@rugbymasters.co.za</p>
+              <a className="email" href="mailto:hello@rugbymasters.co.za">
+                hello@rugbymasters.co.za
+              </a>
             </div>
           </div>
         </div>

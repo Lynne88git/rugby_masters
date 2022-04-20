@@ -12,13 +12,14 @@
     text-align: center;
 }
 
-.links ul li a {
+.links ul li a, .location a {
     color: #191B34;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0;
+    text-decoration: none !important;
 }
 
-.links ul li a:hover { 
+.links ul li a:hover, .location a:hover { 
     text-decoration: none;
 }

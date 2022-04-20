@@ -8,8 +8,8 @@
 body {
     overflow-x: hidden; 
     font-family: 'Work Sans' !important;
-    width: 100%;
-    max-width: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,6 +51,10 @@ li {
 .app-container {
     height: 100%;
     width: 100%;
+}
+
+.cml-2 {
+    margin-left: 2rem!important;   
 }
 
 .cml-6 {
@@ -126,17 +130,18 @@ li {
 .button-secondary {
     font-size: 16px;
     height: 39px;
-    width: 156px;
     width: auto;
     border-radius: 20px;
     color: #fff;
     border-color: transparent !important;
     background: #141630 !important;
     outline:0 !important;
+    text-decoration: none;
 }
 
 .button-secondary:hover { 
     color: #fff;
+    text-decoration: none;
 }
 
 .button-secondary.focus, .button-secondary:focus {
