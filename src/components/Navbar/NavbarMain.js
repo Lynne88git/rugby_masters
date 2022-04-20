@@ -64,7 +64,7 @@ export default class NavbarMain extends Component {
             </Container>
           </Navbar>
 
-          <div className="page-container d-flex justify-content-center">
+          <div className="page-container row">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="browseclasses" element={<BrowseClasses />} />
