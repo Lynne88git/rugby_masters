@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7E725731-ED6A-42D2-B78F-D14DA9CF058A</title>
+    <defs>
+        <linearGradient x1="46.9200132%" y1="100%" x2="46.9200132%" y2="-52.564239%" id="linearGradient-1">
+            <stop stop-color="#E15B11" offset="0%"></stop>
+            <stop stop-color="#EB9845" offset="54%"></stop>
+            <stop stop-color="#EF7D3F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Mobile-UI-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Nav" transform="translate(-360.000000, -70.000000)">
+            <g id="mobile_nav_close_icon" transform="translate(360.000000, 70.000000)">
+                <rect id="Rectangle" x="0" y="0" width="25" height="25"></rect>
+                <path d="M7.2253,5.81108 C6.83477,5.42056 6.20161,5.42056 5.81108,5.81108 C5.42056,6.20161 5.42056,6.83477 5.81108,7.2253 L11.5858,13 L5.81114,18.7747 C5.42062,19.1652 5.42062,19.7984 5.81114,20.1889 C6.20167,20.5794 6.83483,20.5794 7.22535,20.1889 L13,14.4142 L18.7747,20.1889 C19.1652,20.5794 19.7984,20.5794 20.1889,20.1889 C20.5794,19.7984 20.5794,19.1652 20.1889,18.7747 L14.4142,13 L20.189,7.2253 C20.5795,6.83477 20.5795,6.20161 20.189,5.81108 C19.7985,5.42056 19.1653,5.42056 18.7748,5.81108 L13,11.5858 L7.2253,5.81108 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

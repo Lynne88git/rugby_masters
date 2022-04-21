@@ -8,7 +8,6 @@ export default function App() {
   return (
     <>
       <NavbarMain />
-      <div className="app-container"></div>
       <Footer />
     </>
   )
