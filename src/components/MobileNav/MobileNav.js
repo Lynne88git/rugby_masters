@@ -24,7 +24,9 @@ function MobileNav({ name, ...props }) {
       <Offcanvas show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title className="p-5">
-            <img className="nav-logo" src="../../assets/icons/mobile_nav_logo.svg" />
+            <a href="/">
+              <img className="nav-logo" src="../../assets/icons/mobile_nav_logo.svg" />
+            </a>
           </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>

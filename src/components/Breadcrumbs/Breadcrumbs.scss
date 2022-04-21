@@ -1,0 +1,22 @@
+.breadcrumb-container {
+    background-color: transparent !important;
+}
+
+.breadcrumb {
+    background-color: transparent !important;
+    border-radius: 0px;
+    color: #fff;
+}
+
+.breadcrumb-item a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.breadcrumb-item.active {
+    color: #fff !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #fff !important;
+}

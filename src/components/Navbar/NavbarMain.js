@@ -13,6 +13,7 @@ import {
   DropdownButton
 } from 'react-bootstrap'
 import MobileNav from '../MobileNav/MobileNav'
+import Breadcrumbs from '../Breadcrumbs/Breadcrumbs'
 import Login from '../Login/Login'
 import SignUp from '../Signup/Signup'
 import Home from '../../pages/Home'
@@ -43,29 +44,43 @@ export default function NavbarMain() {
               </Nav.Link>
             </Nav>
             <div className="d-flex justify-content-end w-100">
-              <Form className="d-flex">
-                {/* <FormControl
+              <Dropdown>
+                <Dropdown.Toggle className="custom-non-btn-style s-search" id="dropdown-basic">
+                  <img className="pr-1" src="../../assets/icons/header-search.svg" />
+                  Search
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu className="dropdown-transparent">
+                  <Form className="d-flex">
+                    <FormControl
                       type="search"
                       placeholder="Search"
                       className="me-2"
                       aria-label="Search"
-                    /> */}
-                <Button variant="custom-non-btn-style">
-                  <img className="pr-1 s-search" src="../../assets/icons/header-search.svg" />
-                  Search
-                </Button>
-              </Form>
+                    />
+                  </Form>
+                </Dropdown.Menu>
+              </Dropdown>
               <Nav.Link href="#action2">
                 <img className="pr-1" src="../../assets/icons/header_cart_icon.svg" />
                 Cart
               </Nav.Link>
-              <Nav.Link href="#action2">Log In</Nav.Link>
+              <Dropdown>
+                <Dropdown.Toggle className="custom-non-btn-style" id="dropdown-basic">
+                  Log In
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Login />
+                </Dropdown.Menu>
+              </Dropdown>
               <Button className="button-primary">Sign Up</Button>
             </div>
           </Container>
         </Navbar>
 
         <div className="page-container">
+          <Breadcrumbs />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="browseclasses" element={<BrowseClasses />} />

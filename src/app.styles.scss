@@ -223,6 +223,7 @@ li {
 
 .custom-non-btn-style {
     font-size: 16px;
+    color: #141630;
     border: 0px;
     background: transparent;
     outline:0;
@@ -230,17 +231,19 @@ li {
 
 .custom-non-btn-style:hover { 
     background: transparent;
+    color: #141630;
 }
 
 .custom-non-btn-style.focus, .custom-non-btn-style:focus {
+    color: #141630;
     box-shadow: none !important;
     border: 0px solid #FFFFFF !important;
     background: transparent;
 }
 
 .custom-non-btn-style:not(:disabled):not(.disabled).active, .custom-non-btn-style:not(:disabled):not(.disabled):active, .show>.custom-non-btn-style.dropdown-toggle {
+    color: #141630;
     background: transparent !important;
-    color: #fff;
     border: 0px solid #FFFFFF !important;
 }
 
@@ -252,6 +255,7 @@ li {
 @media (max-width: 992px) { 
 #root {
     position: absolute !important;
+    width: 100vw;
 }
 
 }
