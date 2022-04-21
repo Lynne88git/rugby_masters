@@ -8,7 +8,7 @@ export default function Breadcrumbs() {
       <Breadcrumb className="breadcrumb-container py-3">
         <Breadcrumb.Item href="/">
           <img
-            className="pr-1 s-search"
+            className="pr-1 s-search breadcrumbs-home"
             src="../../assets/icons/class_details_home_rugby_masters_logo.svg"
           />
         </Breadcrumb.Item>

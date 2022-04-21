@@ -33,7 +33,7 @@ export default function NavbarMain() {
             <MobileNav />
           </Container>
         </div>
-        <Navbar expand="lg" className="navbar-main px-5">
+        <Navbar expand="lg" className="navbar-main px-5 navbar-desktop">
           <Container className="navbar-desktop">
             <Navbar.Brand as={Link} to="/">
               <img className="nav-logo" src="../../assets/icons/footer_rugby_masters_logo.svg" />
@@ -45,7 +45,9 @@ export default function NavbarMain() {
             </Nav>
             <div className="d-flex justify-content-end w-100">
               <Dropdown>
-                <Dropdown.Toggle className="custom-non-btn-style s-search" id="dropdown-basic">
+                <Dropdown.Toggle
+                  className="custom-non-btn-style s-search-padding"
+                  id="dropdown-basic">
                   <img className="pr-1" src="../../assets/icons/header-search.svg" />
                   Search
                 </Dropdown.Toggle>
@@ -61,12 +63,21 @@ export default function NavbarMain() {
                   </Form>
                 </Dropdown.Menu>
               </Dropdown>
-              <Nav.Link href="#action2">
-                <img className="pr-1" src="../../assets/icons/header_cart_icon.svg" />
-                Cart
-              </Nav.Link>
               <Dropdown>
-                <Dropdown.Toggle className="custom-non-btn-style" id="dropdown-basic">
+                <Dropdown.Toggle
+                  className="custom-non-btn-style s-search-padding"
+                  id="dropdown-basic">
+                  <img className="pr-1" src="../../assets/icons/header_cart_icon.svg" />
+                  Cart
+                </Dropdown.Toggle>
+                <Dropdown.Menu>
+                  <p className="text-center pt-2">Your cart is empty</p>
+                </Dropdown.Menu>
+              </Dropdown>
+              <Dropdown>
+                <Dropdown.Toggle
+                  className="custom-non-btn-style s-search-padding pr-4"
+                  id="dropdown-basic">
                   Log In
                 </Dropdown.Toggle>
 
